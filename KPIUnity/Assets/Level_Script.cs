@@ -7,15 +7,16 @@ using UnityEngine.SceneManagement;
 public class Level_Script : MonoBehaviour
 {
     public Animator transition;
+
     public float transitiontime = 1f;
-    public void LoadLevel()
+    public void LoadLevel(string menu)
     {
         
         
-        StartCoroutine(LoadNextLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(LoadNextLevel(menu));
     }
 
-    IEnumerator LoadNextLevel(int menu)
+    IEnumerator LoadNextLevel(string menu)
     {
         transition.SetTrigger("Start");
         
