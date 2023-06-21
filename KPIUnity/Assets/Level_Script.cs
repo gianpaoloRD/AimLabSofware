@@ -39,7 +39,8 @@ public class Level_Script : MonoBehaviour
     }
     IEnumerator LoadNextSettings(string menu)
     {
-        transition.SetTrigger("GoBack");
+        
+        transition.SetTrigger("GoBackfromSettings");
 
         yield return new WaitForSeconds(transitiontime);
 
@@ -49,7 +50,7 @@ public class Level_Script : MonoBehaviour
     }
     IEnumerator LoadNextSelecLevel(string menu)
     {
-        transition.SetTrigger("GoBack");
+        transition.SetTrigger("GoBackfromLevel");
 
         yield return new WaitForSeconds(transitiontime);
 
