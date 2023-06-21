@@ -11,8 +11,7 @@ public class Level_Script : MonoBehaviour
     public float transitiontime = 1f;
     public void LoadLevelMenu(string menu)
     {
-        
-        
+
         StartCoroutine(LoadNextLevel(menu));
     }
     public void LoadLevelSettings(string menu)
@@ -29,11 +28,21 @@ public class Level_Script : MonoBehaviour
     }
     IEnumerator LoadNextLevel(string menu)
     {
-        transition.SetTrigger("Start");
-        
+        string scene = "Settings";
+        if(scene.Equals(menu))
+        {
+            scene = "Settings";
+            Debug.Log(scene);
+            transition.SetTrigger("Settings");
+
+        }else {
+            scene = "LevelSelector";
+            Debug.Log(scene);
+            transition.SetTrigger("LevelSelect");
+        }
         yield return new WaitForSeconds(transitiontime);
 
-        SceneManager.LoadScene(menu);
+        SceneManager.LoadScene(scene);
 
 
     }
