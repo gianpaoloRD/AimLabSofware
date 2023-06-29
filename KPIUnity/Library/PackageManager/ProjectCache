@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638234013790901453
-    m_Hash: 288431393
+      ticks: 638235795886869336
+    m_Hash: 2545879120
   m_LockFileStatus:
     m_FilePath: C:/Users/chris/OneDrive/Documents/GitHub/KPIUnitySofware/KPIUnity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638234013790903985
-    m_Hash: 15245155
+      ticks: 638235795917296893
+    m_Hash: 2231393657
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
