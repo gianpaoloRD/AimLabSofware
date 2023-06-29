@@ -348,6 +348,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Level_Script.cs"
 "Assets/Scripts/Background/BackgroundScroll.cs"
+"Assets/Scripts/Settings/Brightness.cs"
+"Assets/Scripts/Settings/MasterVolume.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
