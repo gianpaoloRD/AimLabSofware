@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelector.unity
     guid: 725383cae05cc784289a5c70bff8a369
+  - enabled: 1
+    path: Assets/Scenes/ClickMenu.unity
+    guid: 41d1e3dfa5b89c347b8f54e42caf4979
+  - enabled: 1
+    path: Assets/Scenes/ClickTest.unity
+    guid: f2d51f7310be3f649bb639fa33ad85c5
+  - enabled: 1
+    path: Assets/Scenes/ClickTestPractice.unity
+    guid: c200ce81a42c77c4bbff0c241589d76a
+  - enabled: 1
+    path: Assets/Scenes/NamingUser.unity
+    guid: 611564f963f61ba4ebd285fcce2bb51b
   m_configObjects: {}

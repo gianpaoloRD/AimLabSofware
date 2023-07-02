@@ -19,7 +19,7 @@ public class UserName : MonoBehaviour
     {
         string text = inputField.GetComponent<TMP_InputField>().text;
         PlayerPrefs.SetString("name", text);
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene("ClickTest");
     }
 
 
