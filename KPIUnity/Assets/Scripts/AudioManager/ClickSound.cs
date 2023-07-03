@@ -7,6 +7,5 @@ public class ClickSound : MonoBehaviour
     public void PlaySoundEffect()
     {
         AudioManager.instance.PlaySfx("Click");
-        AudioManager.instance.PlaySfx("Null");
     }
 }

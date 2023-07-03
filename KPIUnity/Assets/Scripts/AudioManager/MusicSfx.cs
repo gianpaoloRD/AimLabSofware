@@ -19,56 +19,26 @@ public class MusicSfx : MonoBehaviour
 
     private void Awake()
     {
+        music.value = PlayerPrefs.GetFloat("Music", 1f);
+        sfx.value = PlayerPrefs.GetFloat("Sfx", 1f);
+
         music.onValueChanged.AddListener(SetMusicVolume);
         sfx.onValueChanged.AddListener(SetSfxVolume);
+
     }
 
     void SetMusicVolume(float value)
     {
-        controller.SetFloat(MIXER_MUSIC, value);
+        volumeValueM = value;
+        controller.SetFloat(MIXER_MUSIC, Mathf.Log10(volumeValueM) * 20);
+        PlayerPrefs.SetFloat("Music", volumeValueM);
+        
     }
 
     void SetSfxVolume(float value)
     {
-        controller.SetFloat(MIXER_SFX, value);
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-       // MusicSlider();
-       // SfxSlider();
-    }
-
-    void MusicSlider()
-    {
-        music.value = PlayerPrefs.GetFloat("VolumeAudio", 0.5f);
-        AudioListener.volume = volumeValueM;
-        
-    }
-
-    void SfxSlider()
-        {
-            sfx.value = PlayerPrefs.GetFloat("VolumeAudio", 0.5f);
-            AudioListener.volume = volumeValueS;
-
-        }
-
-    public void ChangeMusicSlider(float valueM)
-    {
-        volumeValueM = valueM;
-        PlayerPrefs.SetFloat("VolumeAudio", volumeValueM);
-        AudioListener.volume = volumeValueM;
-        
-
-    }
-
-    public void ChangeSfSlider(float valueS)
-    {
-        volumeValueS = valueS;
-        PlayerPrefs.SetFloat("VolumeAudio", volumeValueS);
-        AudioListener.volume = volumeValueS;
-
-
-    }
+        volumeValueS = value;
+        controller.SetFloat(MIXER_SFX, Mathf.Log10(volumeValueS) * 20);
+        PlayerPrefs.SetFloat("Sfx", volumeValueS);
+    }  
 }
