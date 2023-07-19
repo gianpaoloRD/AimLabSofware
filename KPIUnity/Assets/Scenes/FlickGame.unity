@@ -598,8 +598,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432979390}
-  - component: {fileID: 432979389}
   - component: {fileID: 432979388}
+  - component: {fileID: 432979391}
   m_Layer: 0
   m_Name: GameControl
   m_TagString: Untagged
@@ -615,30 +615,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432979387}
   m_CullTransparentMesh: 1
---- !u!114 &432979389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 432979387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f5f667141233824c91ec838f70d1be3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 670634452}
-  Panel: {fileID: 651571927}
-  PanelTimeStart: {fileID: 226692120}
-  canPlay: 1
-  shot: 0
-  py: {fileID: 1747835274}
-  TimeLeft: 0
-  TimerOn: 0
-  TimeLeftStart: 5
-  TimeOnStart: 0
-  Timer: {fileID: 1170676545}
-  TimerStart: {fileID: 449922589}
 --- !u!224 &432979390
 RectTransform:
   m_ObjectHideFlags: 0
@@ -659,6 +635,30 @@ RectTransform:
   m_AnchoredPosition: {x: -0.00012207031, y: 0.00015258789}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &432979391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432979387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5f667141233824c91ec838f70d1be3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 670634452}
+  Panel: {fileID: 651571927}
+  PanelTimeStart: {fileID: 226692120}
+  canPlay: 1
+  shot: 0
+  py: {fileID: 1747835274}
+  TimeLeft: 5
+  TimerOn: 0
+  TimeLeftStart: 0
+  TimeOnStart: 0
+  Timer: {fileID: 1170676545}
+  TimerStart: {fileID: 449922589}
 --- !u!1 &449922587
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,7 +2019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 670634452}
-  py: {fileID: 0}
+  py: {fileID: 1747835274}
   ID: []
   Timef: []
   Click: []
@@ -2027,7 +2027,7 @@ MonoBehaviour:
   Coordenates: []
   Target: []
   Camera_rotation: []
-  gc: {fileID: 432979389}
+  gc: {fileID: 432979391}
 --- !u!4 &1036866683
 Transform:
   m_ObjectHideFlags: 0
@@ -2376,7 +2376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CameraHolder: {fileID: 1710965894}
-  mouseSensitivity: 2
+  mouseSensitivity: 0
 --- !u!4 &1747835275
 Transform:
   m_ObjectHideFlags: 0
@@ -2405,7 +2405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbe7cd5de3156674c95483573b17e1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 670634452}
+  cam: {fileID: 0}
 --- !u!1 &2022615952
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -385,7 +385,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Settings dpi
+          m_StringArgument: FlickSettingTime
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &503145694
@@ -771,8 +771,8 @@ RectTransform:
   m_Children:
   - {fileID: 1674172924}
   - {fileID: 503145692}
-  - {fileID: 2073579563}
   - {fileID: 1652521474}
+  - {fileID: 2073579563}
   m_Father: {fileID: 159969105}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1257,7 +1257,7 @@ RectTransform:
   m_Children:
   - {fileID: 677080806}
   m_Father: {fileID: 1051674127}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1451,7 +1451,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: game
+          m_StringArgument: FlickGame
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1674172926
@@ -1569,7 +1569,7 @@ RectTransform:
   m_Children:
   - {fileID: 1392221751}
   m_Father: {fileID: 1051674127}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

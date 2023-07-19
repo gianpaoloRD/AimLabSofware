@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -439,6 +439,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d35e81a760c8ae744b1d977b3db42db3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  py: {fileID: 0}
+  ID: []
+  Timef: []
+  Click: []
+  Number_of_shots: []
+  Coordenates: []
+  Target: []
+  Camera_rotation: []
+  gc: {fileID: 0}
 --- !u!114 &592778073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1020,6 +1030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d413cc2f89edfa744b3486882a06387d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerSetting: {fileID: 1344243331}
 --- !u!1 &1167238797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,7 +1200,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: menu
+          m_StringArgument: KPILevelSelector
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1290411691
