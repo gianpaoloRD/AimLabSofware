@@ -15,7 +15,7 @@ public class CLICKBallControllerPractice : MonoBehaviour
 {
     [SerializeField] CLICKTargetRigth tr;
     [SerializeField] CLICKTarget tg;
-    [SerializeField] MenuControl menuControl;
+    [SerializeField] CLICKMenuControl menuControl;
     [SerializeField] CLICKTime_controller TimerControll;
     Vector3 targetEndPoint;
     Vector3 targetStartPoint;

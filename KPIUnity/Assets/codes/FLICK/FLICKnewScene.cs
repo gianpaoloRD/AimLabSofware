@@ -1,10 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEditor;
 using System.IO;
 using System.Diagnostics;
+using Debug = UnityEngine.Debug;
+using System;
+
 public class FLICKnewScene : MonoBehaviour
 {
     
@@ -19,12 +20,19 @@ public class FLICKnewScene : MonoBehaviour
     }
     public void ButtonMoveScene(string level)
     {
-       
-        SceneManager.LoadScene(level);
+        if (level.Equals("KPIMain menu00")) {
+            RunEnsureNaming();
+            SceneManager.LoadScene("KPILevelSelector"); }
+        else SceneManager.LoadScene(level);
     }
     public void quit(){
         RunEnsureNaming();
         //Debug.Log(Application.Quit().ToString());
         Application.Quit();
     }
+
+
+
+
+
 }

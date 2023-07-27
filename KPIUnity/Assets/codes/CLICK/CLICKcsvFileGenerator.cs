@@ -10,7 +10,7 @@ public class CLICKcsvFileGenerator : MonoBehaviour
 {
     [SerializeField] CLICKTargetRigth tr;
     [SerializeField] CLICKTarget tg;
-    [SerializeField] MenuControl menuControl;
+    [SerializeField] CLICKMenuControl menuControl;
     [SerializeField] CLICKBallController BallC;
     public List<int> tID = new List<int>( ) ;
     public List<bool> Direction = new List<bool>();

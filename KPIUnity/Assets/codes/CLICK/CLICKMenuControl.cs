@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuControl : MonoBehaviour
+public class CLICKMenuControl : MonoBehaviour
 {
     [SerializeField]
     GameObject Panel;
