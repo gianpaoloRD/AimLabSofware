@@ -1,542 +1,534 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1690453726873088, "dur": 164792, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1690453726873117, "dur": 22947, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1690453726896066, "dur": 132567, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1690453727028635, "dur": 9245, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1690453727038232, "dur": 6, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690543637871154, "dur": 202344, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690543637871327, "dur": 14337, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690543637885668, "dur": 172629, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690543638058299, "dur": 15199, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690543638073761, "dur": 7, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1690453726936228, "dur":1124, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453726937363, "dur":127, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1690453726937526, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1690453726937547, "dur":532, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1690453726938096, "dur":422, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453726938518, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727017589, "dur":350, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727017939, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727017986, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727017988, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727017997, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727017999, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018003, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018005, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018009, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018010, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018013, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018015, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018019, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018021, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018025, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018026, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018030, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018031, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018035, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018037, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018040, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018042, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018046, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018047, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018051, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018052, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018057, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018058, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018063, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018064, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018068, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018069, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018073, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018075, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018079, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018080, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018085, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018086, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018090, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018092, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018107, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018118, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727018129, "dur":927, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1690453726938086, "dur":480, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726938574, "dur":2329, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726940910, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1690453726940910, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726940933, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1690453726940934, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726940941, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1690453726940968, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726941249, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690453726941275, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726941552, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690453726941560, "dur":1038, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726942599, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690453726942607, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726942969, "dur":16012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1690453726958981, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726959021, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":1, "ts":1690453726959112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726959127, "dur":5914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":1, "ts":1690453726965055, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level8" }}
-,{ "pid":12345, "tid":1, "ts":1690453726965070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1690453726965079, "dur":4578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level8" }}
-,{ "pid":12345, "tid":1, "ts":1690453726969665, "dur":47953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726939425, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726939426, "dur":1480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726940910, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1690453726940975, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726941321, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690453726941332, "dur":524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726941856, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690453726941863, "dur":443, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726942306, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690453726942312, "dur":506, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726942820, "dur":11142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1690453726953963, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726953999, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":2, "ts":1690453726954015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726954021, "dur":4924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":2, "ts":1690453726958958, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1690453726958975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726958984, "dur":7427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1690453726966423, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level3.resS" }}
-,{ "pid":12345, "tid":2, "ts":1690453726966436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726966441, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level3.resS" }}
-,{ "pid":12345, "tid":2, "ts":1690453726967871, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1690453726967882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1690453726967887, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1690453726969096, "dur":48491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726938170, "dur":432, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726938602, "dur":2481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726941083, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity.exe" }}
-,{ "pid":12345, "tid":3, "ts":1690453726941131, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726941145, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690453726941222, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726941445, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690453726941453, "dur":667, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726942121, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690453726942129, "dur":602, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726942731, "dur":9557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":3, "ts":1690453726952288, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726952321, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":3, "ts":1690453726952336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726952418, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":3, "ts":1690453726955861, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":3, "ts":1690453726955874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1690453726955880, "dur":19217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":3, "ts":1690453726975108, "dur":42506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726939447, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726939448, "dur":1459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726940910, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1690453726940950, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726941135, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690453726941150, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726941334, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690453726941345, "dur":640, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726941985, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690453726941993, "dur":455, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726942449, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690453726942507, "dur":588, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726943097, "dur":14074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1690453726957171, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726957214, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets11.assets" }}
-,{ "pid":12345, "tid":4, "ts":1690453726957233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726957248, "dur":9506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets11.assets" }}
-,{ "pid":12345, "tid":4, "ts":1690453726966763, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1690453726966775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1690453726966795, "dur":4843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level2.resS" }}
-,{ "pid":12345, "tid":4, "ts":1690453726971651, "dur":45953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726938223, "dur":454, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726938677, "dur":2305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726940982, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1690453726941060, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726941086, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1690453726941137, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726941240, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690453726941256, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726941532, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690453726941541, "dur":843, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726942384, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690453726942394, "dur":590, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726942985, "dur":10608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":5, "ts":1690453726953594, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726953644, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":5, "ts":1690453726953670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726953689, "dur":5271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":5, "ts":1690453726958974, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1690453726958990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726958996, "dur":8755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1690453726967765, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level10.resS" }}
-,{ "pid":12345, "tid":5, "ts":1690453726967782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726967789, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level10.resS" }}
-,{ "pid":12345, "tid":5, "ts":1690453726968900, "dur":2171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1690453726971072, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1690453726971086, "dur":46522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726938771, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726938771, "dur":2207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726940979, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1690453726941041, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726941072, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":6, "ts":1690453726941142, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726941242, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726941261, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726941537, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726941547, "dur":954, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726942501, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726942509, "dur":642, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943152, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943170, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943322, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943339, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943362, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943373, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943533, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943553, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943581, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943594, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943615, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943627, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943806, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943830, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943857, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726943869, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726944045, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1690453726944061, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726944215, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":6, "ts":1690453726944326, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726944353, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1690453726944381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726944796, "dur":14663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1690453726959471, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1690453726959488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726959495, "dur":8717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1690453726968225, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1690453726968242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1690453726968247, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1690453726969344, "dur":48249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690453726938659, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690453726938659, "dur":2395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690453726941054, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":7, "ts":1690453726941124, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690453726941235, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690453726941257, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690453726941461, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690453726941469, "dur":715, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690453726942184, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690453726942192, "dur":548, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690453726942742, "dur":26131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1690453726968874, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1690453726968926, "dur":48660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690453726938327, "dur":361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690453726938688, "dur":2319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690453726941008, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1690453726941039, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690453726941380, "dur":35724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1690453726977105, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1690453726977143, "dur":40480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690453726938478, "dur":249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690453726938728, "dur":2274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690453726941002, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":9, "ts":1690453726941050, "dur":452, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690453726941503, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690453726941510, "dur":779, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690453726942289, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690453726942296, "dur":657, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690453726942955, "dur":19785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":9, "ts":1690453726962742, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690453726962806, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level9.resS" }}
-,{ "pid":12345, "tid":9, "ts":1690453726962836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690453726962856, "dur":3903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level9.resS" }}
-,{ "pid":12345, "tid":9, "ts":1690453726966774, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level2" }}
-,{ "pid":12345, "tid":9, "ts":1690453726966792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1690453726966820, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level2" }}
-,{ "pid":12345, "tid":9, "ts":1690453726970481, "dur":47109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726938612, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726938612, "dur":2433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726941045, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1690453726941096, "dur":411, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726941508, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690453726941517, "dur":813, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726942330, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690453726942337, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726942347, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690453726942352, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726942368, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690453726942375, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726942388, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690453726942396, "dur":521, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726942917, "dur":6751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":10, "ts":1690453726949670, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726949863, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets9.assets" }}
-,{ "pid":12345, "tid":10, "ts":1690453726949887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726949906, "dur":6169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets9.assets" }}
-,{ "pid":12345, "tid":10, "ts":1690453726956084, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1690453726956144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726956150, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1690453726959108, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1690453726959120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726959126, "dur":4572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1690453726963712, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level9" }}
-,{ "pid":12345, "tid":10, "ts":1690453726963754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726963786, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level9" }}
-,{ "pid":12345, "tid":10, "ts":1690453726965135, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level7.resS" }}
-,{ "pid":12345, "tid":10, "ts":1690453726965149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726965175, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level7.resS" }}
-,{ "pid":12345, "tid":10, "ts":1690453726966196, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level5" }}
-,{ "pid":12345, "tid":10, "ts":1690453726966208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726966214, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level5" }}
-,{ "pid":12345, "tid":10, "ts":1690453726967768, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level10" }}
-,{ "pid":12345, "tid":10, "ts":1690453726967782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726967789, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level10" }}
-,{ "pid":12345, "tid":10, "ts":1690453726968763, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":10, "ts":1690453726968794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1690453726968800, "dur":620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":10, "ts":1690453726969429, "dur":48153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726938694, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726938694, "dur":2358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726941053, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1690453726941125, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726941284, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690453726941302, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726941675, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690453726941684, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726941917, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690453726941924, "dur":459, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726942384, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690453726942392, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726942862, "dur":16772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":11, "ts":1690453726959635, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726959693, "dur":6644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":11, "ts":1690453726966338, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726966474, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level3" }}
-,{ "pid":12345, "tid":11, "ts":1690453726966488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1690453726966502, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level3" }}
-,{ "pid":12345, "tid":11, "ts":1690453726970025, "dur":47559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690453726938726, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690453726938726, "dur":2277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690453726941004, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1690453726941027, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690453726941251, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690453726941267, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690453726941545, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690453726941554, "dur":997, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690453726942553, "dur":27739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":12, "ts":1690453726970293, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1690453726970603, "dur":47004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726938889, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726938890, "dur":2171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726941061, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":13, "ts":1690453726941097, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726941131, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1690453726941142, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726941288, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1690453726941310, "dur":625, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726941935, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1690453726941942, "dur":445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726942387, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1690453726942403, "dur":616, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726943019, "dur":11866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":13, "ts":1690453726954886, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726955032, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1690453726955048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726955061, "dur":4876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1690453726959948, "dur":5561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":13, "ts":1690453726965510, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726965620, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level6.resS" }}
-,{ "pid":12345, "tid":13, "ts":1690453726965640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1690453726965656, "dur":3667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level6.resS" }}
-,{ "pid":12345, "tid":13, "ts":1690453726969332, "dur":48257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726939063, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726939063, "dur":1944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941007, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941046, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941064, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941094, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941103, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941126, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941297, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941307, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941321, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941328, "dur":468, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941796, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1690453726941805, "dur":441, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726942246, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1690453726942253, "dur":601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726942854, "dur":8102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":14, "ts":1690453726950957, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726951137, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":14, "ts":1690453726951158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726951174, "dur":4595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":14, "ts":1690453726955780, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":14, "ts":1690453726955793, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726955799, "dur":8697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":14, "ts":1690453726964508, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level8.resS" }}
-,{ "pid":12345, "tid":14, "ts":1690453726964522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726964532, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level8.resS" }}
-,{ "pid":12345, "tid":14, "ts":1690453726965874, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level5.resS" }}
-,{ "pid":12345, "tid":14, "ts":1690453726965887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726965893, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level5.resS" }}
-,{ "pid":12345, "tid":14, "ts":1690453726967095, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level11.resS" }}
-,{ "pid":12345, "tid":14, "ts":1690453726967105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726967111, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level11.resS" }}
-,{ "pid":12345, "tid":14, "ts":1690453726968044, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level1" }}
-,{ "pid":12345, "tid":14, "ts":1690453726968056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1690453726968061, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level1" }}
-,{ "pid":12345, "tid":14, "ts":1690453726969171, "dur":48412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726939234, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726939234, "dur":1821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941055, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941124, "dur":451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941575, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941587, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941608, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941614, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941669, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941676, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941687, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941696, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941707, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1690453726941713, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726942043, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1690453726942049, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726942519, "dur":15448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":15, "ts":1690453726957968, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726958004, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets10.assets" }}
-,{ "pid":12345, "tid":15, "ts":1690453726958020, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726958033, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets10.assets" }}
-,{ "pid":12345, "tid":15, "ts":1690453726961068, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1690453726961085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726961097, "dur":4687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1690453726965795, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level6" }}
-,{ "pid":12345, "tid":15, "ts":1690453726965809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726965815, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level6" }}
-,{ "pid":12345, "tid":15, "ts":1690453726966331, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level4" }}
-,{ "pid":12345, "tid":15, "ts":1690453726966342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726966347, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level4" }}
-,{ "pid":12345, "tid":15, "ts":1690453726967559, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level11" }}
-,{ "pid":12345, "tid":15, "ts":1690453726967575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726967581, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level11" }}
-,{ "pid":12345, "tid":15, "ts":1690453726968418, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level0" }}
-,{ "pid":12345, "tid":15, "ts":1690453726968430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1690453726968435, "dur":665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level0" }}
-,{ "pid":12345, "tid":15, "ts":1690453726969108, "dur":48473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1690453726939281, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1690453726939281, "dur":1717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1690453726940998, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":16, "ts":1690453726941025, "dur":359, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1690453726941384, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1690453726941399, "dur":666, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1690453726942065, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1690453726942072, "dur":509, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1690453726942581, "dur":49792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":16, "ts":1690453726992374, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1690453726992413, "dur":25191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726939344, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726939344, "dur":1565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726940911, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":17, "ts":1690453726940978, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726941286, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726941294, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726941610, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726941619, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726941697, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726941704, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726941983, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726941990, "dur":506, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726942496, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726942514, "dur":693, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943208, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943224, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943397, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943414, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943544, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943553, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943567, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943572, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943583, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943590, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943600, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943607, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943618, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943625, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943765, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943778, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943907, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943916, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943929, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943935, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943945, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726943951, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726944122, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726944136, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726944182, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726944191, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726944206, "dur":26160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726970375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1690453726970605, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":17, "ts":1690453726972547, "dur":45066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726938115, "dur":460, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726938575, "dur":2480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726941056, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":18, "ts":1690453726941100, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726941117, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1690453726941126, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726941245, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1690453726941258, "dur":474, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726941732, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1690453726941740, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726942180, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1690453726942186, "dur":605, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726942792, "dur":8954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":18, "ts":1690453726951747, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726951780, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":18, "ts":1690453726951803, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726951818, "dur":4782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":18, "ts":1690453726956612, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":18, "ts":1690453726956623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726956629, "dur":4597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":18, "ts":1690453726961237, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/resources.assets" }}
-,{ "pid":12345, "tid":18, "ts":1690453726961272, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726961279, "dur":3898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/resources.assets" }}
-,{ "pid":12345, "tid":18, "ts":1690453726965198, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level7" }}
-,{ "pid":12345, "tid":18, "ts":1690453726965214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726965220, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level7" }}
-,{ "pid":12345, "tid":18, "ts":1690453726966309, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level4.resS" }}
-,{ "pid":12345, "tid":18, "ts":1690453726966323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726966328, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/level4.resS" }}
-,{ "pid":12345, "tid":18, "ts":1690453726968788, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":18, "ts":1690453726968802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1690453726968809, "dur":548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":18, "ts":1690453726969365, "dur":48229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726939371, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726939372, "dur":1540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726940914, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":19, "ts":1690453726940971, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726941141, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1690453726941287, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726941303, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1690453726941311, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726941617, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1690453726941625, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726941717, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1690453726941726, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726942118, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1690453726942125, "dur":523, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726942649, "dur":29303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":19, "ts":1690453726971953, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1690453726972018, "dur":45607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1690453726939407, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1690453726939407, "dur":1512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1690453726940923, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":20, "ts":1690453726940987, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1690453726941005, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":20, "ts":1690453726941031, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1690453726941315, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1690453726941323, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1690453726941736, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1690453726941744, "dur":916, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1690453726942661, "dur":74823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/GameFinished/KPIUnity_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":20, "ts":1690453727017485, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1690453727017527, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":20, "ts":1690453727017528, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1690453727019801, "dur":1181, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1690453727038274, "dur": 343, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1690453727038221, "dur": 415, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1690543637920395, "dur":643, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543637921058, "dur":120, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690543637921209, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690543637921228, "dur":555, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690543637921802, "dur":436, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543637922238, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045386, "dur":309, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045695, "dur":48, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045743, "dur":57, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045800, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045815, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045816, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045822, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045822, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045827, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045828, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045832, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045834, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045838, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045839, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045843, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045844, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045849, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045851, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045855, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045857, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045862, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045863, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045867, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045868, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045872, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045873, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045908, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045911, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045916, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045918, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045922, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045923, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045927, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045928, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045932, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045933, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045937, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045938, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045943, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045944, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045949, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045967, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638045984, "dur":907, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690543637922052, "dur":244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637922300, "dur":2249, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924555, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924556, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924588, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924589, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924597, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924625, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924633, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924655, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924662, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity.exe" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924670, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924679, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924693, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924700, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690543637924812, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637925121, "dur":10920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690543637936042, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637936075, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690543637936107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637936131, "dur":6390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690543637942532, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690543637942544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637942568, "dur":4647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1690543637947228, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690543637947245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637947251, "dur":9681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690543637956946, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level9.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690543637956965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637956971, "dur":5662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level9.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690543637962719, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690543637962825, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637962879, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690543637968167, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1690543637968181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637968187, "dur":4752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1690543637973032, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690543637973159, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690543637973251, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1690543637976916, "dur":68490, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637923171, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637923171, "dur":1471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924642, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924813, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924820, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924835, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924843, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924850, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924858, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924866, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924873, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924881, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924897, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690543637924906, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637925049, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690543637925055, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543637925060, "dur":120204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690543638045265, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690543638045283, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1690543638045284, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690543637922921, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690543637922921, "dur":1715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690543637924636, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1690543637924701, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690543637924750, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690543637924793, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690543637924810, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690543637924885, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690543637924898, "dur":31151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690543637956050, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690543637956072, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690543637956089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690543637956105, "dur":23520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1690543637979632, "dur":65750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690543637923760, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690543637923760, "dur":845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690543637924607, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1690543637924828, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690543637924845, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690543637924887, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690543637925067, "dur":30052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690543637955120, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690543637955134, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690543637955159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690543637955172, "dur":16669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1690543637971856, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1690543637971875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690543637971881, "dur":17237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1690543637989125, "dur":56278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637922192, "dur":113, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637922305, "dur":2406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637924711, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690543637924795, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637924809, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690543637924839, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637924863, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690543637924875, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637924888, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690543637925066, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637925086, "dur":15116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690543637940203, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637940226, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690543637940243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637940262, "dur":7010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690543637947285, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690543637947300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637947306, "dur":15230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1690543637962550, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level7" }}
+,{ "pid":12345, "tid":5, "ts":1690543637962566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637962573, "dur":5596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level7" }}
+,{ "pid":12345, "tid":5, "ts":1690543637968184, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level11.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690543637968201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637968208, "dur":4948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level11.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690543637973265, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1690543637973383, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690543637973427, "dur":4229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1690543637977725, "dur":67656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637922784, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637922784, "dur":1854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637924638, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1690543637924757, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637924771, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637924784, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637924799, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637924819, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637924830, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925151, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925201, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925216, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925225, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925241, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925249, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925259, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925271, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925341, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925404, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925566, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925637, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925713, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925777, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925858, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637925937, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926010, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926074, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926145, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926208, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926290, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926358, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926432, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926495, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926572, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637926642, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1690543637927012, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637927028, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1690543637927085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637927479, "dur":20174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1690543637947665, "dur":18287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1690543637965956, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637966095, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1690543637966155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690543637966161, "dur":20214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1690543637986432, "dur":58996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690543637922522, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690543637922523, "dur":2189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690543637924713, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690543637924786, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690543637924807, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690543637924876, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690543637924892, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690543637925132, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690543637925167, "dur":29459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690543637954627, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690543637954653, "dur":13414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1690543637968068, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690543637968105, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1690543637968127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690543637968166, "dur":17547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1690543637985796, "dur":59625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637923030, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637923031, "dur":1544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924577, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924678, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924694, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924757, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924789, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924813, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924850, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924872, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924883, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690543637924906, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637925062, "dur":12584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690543637937647, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637937669, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":8, "ts":1690543637937688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637937704, "dur":4904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":8, "ts":1690543637942621, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1690543637942635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690543637942641, "dur":57200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1690543637999850, "dur":45537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637923159, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637923159, "dur":1396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637924557, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1690543637924661, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637924676, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690543637924697, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637924757, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690543637924854, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637924868, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690543637924884, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637924895, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690543637925131, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637925149, "dur":20452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690543637945604, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637945700, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1690543637945823, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637945918, "dur":14639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1690543637960573, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1690543637960593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690543637960876, "dur":24361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1690543637985258, "dur":60188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637923634, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637923634, "dur":975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924610, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924689, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924743, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924756, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924766, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924773, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924786, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924793, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924800, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924808, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924836, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924857, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924863, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924871, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924885, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690543637924901, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637925052, "dur":49834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690543637974890, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690543637975010, "dur":70399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637923323, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637923324, "dur":1269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924593, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924636, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924645, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924698, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924767, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924778, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924790, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924798, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924808, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924816, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924823, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924833, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924840, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924857, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637924866, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690543637925084, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637925100, "dur":17667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690543637942767, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637942781, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690543637942795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637942806, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690543637946859, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1690543637946871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637946877, "dur":17445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1690543637964335, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690543637964349, "dur":42, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637964398, "dur":5204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690543637969689, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level10" }}
+,{ "pid":12345, "tid":11, "ts":1690543637969797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637969846, "dur":4065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level10" }}
+,{ "pid":12345, "tid":11, "ts":1690543637973979, "dur":9276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1690543637983256, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690543637983273, "dur":62120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690543637923478, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690543637923479, "dur":1161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690543637924641, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1690543637924698, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690543637924738, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690543637924772, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690543637924789, "dur":75680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690543638000469, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690543638000482, "dur":44944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924211, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924212, "dur":340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924555, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924609, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924619, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924640, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924648, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924697, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924835, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924871, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637924894, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1690543637925141, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637925173, "dur":19753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1690543637944927, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637944942, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1690543637944974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637944985, "dur":21231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1690543637966227, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level3" }}
+,{ "pid":12345, "tid":13, "ts":1690543637966240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1690543637966245, "dur":23096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level3" }}
+,{ "pid":12345, "tid":13, "ts":1690543637989348, "dur":56037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637923957, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637923957, "dur":627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924585, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924629, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924640, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924660, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924675, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924696, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924734, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924753, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924781, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924793, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924802, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924837, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924848, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924855, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924872, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924879, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637924893, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1690543637925105, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637925120, "dur":39126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1690543637964247, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637964262, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level5" }}
+,{ "pid":12345, "tid":14, "ts":1690543637964304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1690543637964317, "dur":18922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level5" }}
+,{ "pid":12345, "tid":14, "ts":1690543637983251, "dur":62166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924538, "dur":15, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924555, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924600, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924610, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924634, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924646, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924694, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924742, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924755, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924798, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924812, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637924818, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1690543637925155, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637925173, "dur":13872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1690543637939046, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637939062, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":15, "ts":1690543637939075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637939085, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":15, "ts":1690543637942990, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":15, "ts":1690543637943001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637943006, "dur":13936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":15, "ts":1690543637956956, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level9" }}
+,{ "pid":12345, "tid":15, "ts":1690543637956972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637956980, "dur":6600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level9" }}
+,{ "pid":12345, "tid":15, "ts":1690543637963663, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level6" }}
+,{ "pid":12345, "tid":15, "ts":1690543637963764, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637963813, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level6" }}
+,{ "pid":12345, "tid":15, "ts":1690543637968205, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level11" }}
+,{ "pid":12345, "tid":15, "ts":1690543637968221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637968229, "dur":5521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level11" }}
+,{ "pid":12345, "tid":15, "ts":1690543637973759, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1690543637973772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1690543637973778, "dur":5101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1690543637978959, "dur":66448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924345, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924346, "dur":213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924560, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924632, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924646, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924695, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924703, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924768, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924776, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924788, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924794, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924808, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924816, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924823, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924830, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924841, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924862, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924869, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924880, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924898, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637924905, "dur":74626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1690543637999532, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1690543637999552, "dur":45878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924727, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924727, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924758, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924776, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924786, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924792, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924801, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924811, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924840, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924846, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924860, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637924868, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1690543637925105, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637925112, "dur":12965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":17, "ts":1690543637938078, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637938099, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":17, "ts":1690543637938111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637938123, "dur":6804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":17, "ts":1690543637944937, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":17, "ts":1690543637944950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637944955, "dur":16018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":17, "ts":1690543637961216, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level7.resS" }}
+,{ "pid":12345, "tid":17, "ts":1690543637961368, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637961419, "dur":4641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level7.resS" }}
+,{ "pid":12345, "tid":17, "ts":1690543637966139, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level3.resS" }}
+,{ "pid":12345, "tid":17, "ts":1690543637966154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637966160, "dur":3901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level3.resS" }}
+,{ "pid":12345, "tid":17, "ts":1690543637970071, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level1.resS" }}
+,{ "pid":12345, "tid":17, "ts":1690543637970083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1690543637970088, "dur":5684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level1.resS" }}
+,{ "pid":12345, "tid":17, "ts":1690543637975811, "dur":69572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925246, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925247, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925266, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925291, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925378, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925440, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925506, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925570, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925707, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925784, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925862, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925927, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637925992, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637926050, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637926122, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637926185, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637926247, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637926307, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637926392, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637926454, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637926518, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637926575, "dur":46927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637973553, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1690543637973725, "dur":10594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":18, "ts":1690543637984416, "dur":61009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637924887, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637924887, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1690543637924903, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637925127, "dur":15870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":19, "ts":1690543637940998, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637941018, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":19, "ts":1690543637941037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637941049, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":19, "ts":1690543637942965, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":19, "ts":1690543637942976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637942980, "dur":14640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":19, "ts":1690543637957707, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level8.resS" }}
+,{ "pid":12345, "tid":19, "ts":1690543637957819, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637957868, "dur":6292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level8.resS" }}
+,{ "pid":12345, "tid":19, "ts":1690543637964245, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level5.resS" }}
+,{ "pid":12345, "tid":19, "ts":1690543637964258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637964297, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level5.resS" }}
+,{ "pid":12345, "tid":19, "ts":1690543637968226, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level10.resS" }}
+,{ "pid":12345, "tid":19, "ts":1690543637968246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637968292, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/level10.resS" }}
+,{ "pid":12345, "tid":19, "ts":1690543637973802, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":19, "ts":1690543637973814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1690543637973818, "dur":5438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":19, "ts":1690543637979337, "dur":66086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1690543637924986, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1690543637924986, "dur":113299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Dropbox/DriveMaster_SOW4_2021-24/Fazilat/Software/KPIUnitySofware/Test/KPIUnity_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1690543638038286, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1690543638038306, "dur":7106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690543638047537, "dur":1144, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1690543638073837, "dur": 302, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1690543638073751, "dur": 403, "ph": "X", "name": "Write chrome-trace events", "args": {} },

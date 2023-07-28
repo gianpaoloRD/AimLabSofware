@@ -19,7 +19,6 @@ public class CLICKUserName : MonoBehaviour
     {
         string text = inputField.GetComponent<TMP_InputField>().text;
         PlayerPrefs.SetString("name", text);
-        SceneManager.LoadScene("ClickTest");
     }
 
 

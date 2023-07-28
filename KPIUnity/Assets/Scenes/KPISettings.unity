@@ -2201,7 +2201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 858a21af7f4d8e145982324383c45d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backSpeed: 0.01
+  backSpeed: 0
 --- !u!64 &1019604073
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2551,6 +2551,10 @@ PrefabInstance:
       propertyPath: transitiontime
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1416078152786272229, guid: 6f32ff2344873c142878f0f36586a49e, type: 3}
+      propertyPath: Logintransition
+      value: 
+      objectReference: {fileID: 864971402}
     - target: {fileID: 1416078152786272230, guid: 6f32ff2344873c142878f0f36586a49e, type: 3}
       propertyPath: m_RootOrder
       value: 5

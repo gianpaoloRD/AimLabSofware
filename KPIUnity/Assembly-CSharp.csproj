@@ -66,7 +66,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\codes\FLICK\FLICKchange_sensitivity_from_another_scene.cs" />
-    <Compile Include="Assets\FileChecker.cs" />
+    <Compile Include="Assets\codes\FileChecker.cs" />
     <Compile Include="Assets\codes\CLICK\CLICKTargetShooter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\codes\CLICK\CLICKPlayerController.cs" />

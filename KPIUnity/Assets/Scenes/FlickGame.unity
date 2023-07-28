@@ -653,10 +653,10 @@ MonoBehaviour:
   canPlay: 1
   shot: 0
   py: {fileID: 1747835274}
-  TimeLeft: 5
+  TimeLeft: 0
   TimerOn: 0
-  TimeLeftStart: 0
-  TimeOnStart: 0
+  TimeLeftStart: 5
+  TimeOnStart: 1
   Timer: {fileID: 1170676545}
   TimerStart: {fileID: 449922589}
 --- !u!1 &449922587

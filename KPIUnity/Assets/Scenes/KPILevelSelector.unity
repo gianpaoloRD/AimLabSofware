@@ -2174,7 +2174,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 45, y: -8.0000305}
+  m_AnchoredPosition: {x: 45, y: -8}
   m_SizeDelta: {x: -688.501, y: -738}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1000387264
@@ -2230,7 +2230,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ClickNamingUser
+          m_StringArgument: ClickTest
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1000387265
@@ -2303,7 +2303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 858a21af7f4d8e145982324383c45d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backSpeed: 0.01
+  backSpeed: 0
 --- !u!64 &1019604073
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2414,6 +2414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transition: {fileID: 864971402}
+  Logintransition: {fileID: 864971402}
   transitiontime: 1
 --- !u!4 &1024901844
 Transform:
@@ -3354,7 +3355,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 45, y: -8.0000305}
+  m_AnchoredPosition: {x: 45, y: -8}
   m_SizeDelta: {x: -688.501, y: -738}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523085617
@@ -4283,7 +4284,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2006, y: -5.9999695}
+  m_AnchoredPosition: {x: 2006, y: -6}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962781212

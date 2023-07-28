@@ -15,11 +15,11 @@ public class FLICKGameController : MonoBehaviour
     [SerializeField]
     GameObject PanelTimeStart;
     [SerializeField]
-    public bool canPlay = true;
+    public bool canPlay = false;
     // Update is called once per frame
     public bool shot = false;
     public FLICKPlayerController py;
-    public float TimeLeft = 0;
+    public float TimeLeft = -5;
     public bool TimerOn = false;
     public float TimeLeftStart;
     public bool TimeOnStart = false;
@@ -47,7 +47,7 @@ public class FLICKGameController : MonoBehaviour
             //print("space key was pressed");
         }
         Debug.Log(PlayerPrefs.GetInt("AdjustTimer"));
-        if (Input.GetMouseButtonDown(0) && canPlay == true)
+        if (Input.GetMouseButtonDown(0) && canPlay)
         {
             Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f));
             if (Physics.Raycast(ray, out RaycastHit hit))
@@ -65,17 +65,20 @@ public class FLICKGameController : MonoBehaviour
                 }
             }
         }
-        //Debug.Log(TimeOnStart);
+        Debug.Log(TimeOnStart);
         if (TimeOnStart == true)
         {
             if (TimeLeftStart > 0)
             {
+                py.CanPlay(false);
+                canPlay = false;
                 TimeLeftStart -= Time.deltaTime;
                 updateTimerStart(TimeLeftStart);
             }
             else
             {
                 //print();
+                canPlay = true;
                 PanelTimeStart.SetActive(false);
                 py.CanPlay(true);
                 Cursor.lockState = CursorLockMode.Locked;

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -21,7 +22,10 @@ public class CLICKcsvFileGenerator : MonoBehaviour
     string dateNow = System.DateTime.Now.ToString();
     Vector3 VectorCrossHair = new Vector3(0, 90f, -125f);
     int size = 0;
+    int score = 59;
     bool open = true;
+    [SerializeField] public TextMeshProUGUI TimeController;
+    // Start is called before the first frame update
 
     // Start is called before the first frame update
     void Start()
@@ -44,9 +48,10 @@ public class CLICKcsvFileGenerator : MonoBehaviour
         }
         else if (Input.GetMouseButtonDown(0) && open)
         {
-
-            if(BallC.RightOrLeft())
+            UpDateTimer(score--);
+            if (BallC.RightOrLeft())
             {
+
                 firstmiss = tg.GetPostion().x;
                 Debug.Log(tg.GetPostion().x);  
                 if (tg.GetPostion().x <= 1 && tg.GetPostion().x > 0) Miss[size] = tg.GetPostion().x + 4.80f;
@@ -96,7 +101,7 @@ public class CLICKcsvFileGenerator : MonoBehaviour
             tg.WasHit(false);
             tr.wasHit(false);
             WriteCsv();
-            //Debug.Log(size);
+            Debug.Log(Hit[size]);
             Hit.Add(false);
             //Miss.Add(90);
             size = BallC.ListOfDirectionOfTheTargets().Count - 1;
@@ -164,6 +169,18 @@ public class CLICKcsvFileGenerator : MonoBehaviour
         tw.Flush();
         tw.Close();
 
+    }
+
+
+    public void UpDateTimer(int currentTime)
+    {
+
+        TimeController.text = string.Format("{0}", currentTime);
+        TimeController.SetText(currentTime.ToString());
+    }
+    public void TurnOff()
+    {
+        TimeController.SetText("");
     }
 
 }

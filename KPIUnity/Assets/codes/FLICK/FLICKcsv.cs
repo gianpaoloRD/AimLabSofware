@@ -127,8 +127,8 @@ public class FLICKcsv : MonoBehaviour
                 Debug.Log(ex);
             }
         }
-        
-        Debug.Log(saveFilePath);
+
+        // Debug.Log(saveFilePath);
         TextWriter tw = new StreamWriter(saveFilePath + "/GetData/test.csv", true);
 
         tw.WriteLine("DATE,TimeFrame,ID,Was Click, X(Target), Y(Target), Z(Target) , X(Camera Rotation), Y(Camera Rotation), Z(Camera Rotation),Pitch ,Yaw,Number of shots");
